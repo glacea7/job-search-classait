@@ -1,3 +1,7 @@
+# Intern assignment for Class A IT
+
+Looking forward to achieving greater things.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

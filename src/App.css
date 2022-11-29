@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.map-container {
+	text-align: center;
+	width: 99vw;
+	height: 99vh;
+	border: 1px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-window {
+	max-width: 250px;
+	word-wrap: break-word;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.info-window > p {
+	font-size: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+.header {
+	width: 100%;
+	height: auto;
+	border-bottom: 4px solid grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header > h1 {
+	opacity: 1;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin-left: 45%;
+}
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+	margin: 4px;
+	min-width: 100%;
+}
+button {
+	background: rgb(117, 203, 234);
+	color: white;
+	border: none;
+	padding: auto;
+}
+.google-map {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
