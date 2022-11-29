@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/job-search-classait/static/css/main.59cac051.css",
+    "main.js": "/job-search-classait/static/js/main.3ef7913b.js",
+    "static/js/787.6d28cdd5.chunk.js": "/job-search-classait/static/js/787.6d28cdd5.chunk.js",
+    "index.html": "/job-search-classait/index.html",
+    "main.59cac051.css.map": "/job-search-classait/static/css/main.59cac051.css.map",
+    "main.3ef7913b.js.map": "/job-search-classait/static/js/main.3ef7913b.js.map",
+    "787.6d28cdd5.chunk.js.map": "/job-search-classait/static/js/787.6d28cdd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59cac051.css",
+    "static/js/main.3ef7913b.js"
+  ]
+}
