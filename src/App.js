@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useJsApiLoader } from '@react-google-maps/api';
 import Map from './components/Map';
 import Header from './components/Header';
@@ -43,7 +43,7 @@ function App() {
 		});
 	}
 	async function getAdzuna(postalCode, first, last) {
-		const link = `http://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${process.env.REACT_APP_ADZUNA_ID}&app_key=${process.env.REACT_APP_ADZUNA_API_KEY}&results_per_page=20&what=${first}%20${last}&where=${postalCode}&content-type=application/json`;
+		const link = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${process.env.REACT_APP_ADZUNA_ID}&app_key=${process.env.REACT_APP_ADZUNA_API_KEY}&results_per_page=20&what=${first}%20${last}&where=${postalCode}&content-type=application/json`;
 
 		try {
 			const response = await fetch(link);

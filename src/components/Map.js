@@ -56,7 +56,6 @@ export default function Map(props) {
 						</div>
 					</InfoWindow>
 				) : null}
-				{console.log(selected)}
 			</GoogleMap>
 		</div>
 	);
